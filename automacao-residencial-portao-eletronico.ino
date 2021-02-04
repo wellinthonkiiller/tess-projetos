@@ -49,12 +49,14 @@ void state0()
       stateMachine = GATE_CLOSING;
 }
 
+//Opening state
 void state1()
 {
   Serial.println("The gate is opening");
     openGate();
 }
 
+//Closing state
 void state2()
 {
     Serial.println("The gate is closing");
